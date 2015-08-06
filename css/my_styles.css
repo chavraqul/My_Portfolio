@@ -50,13 +50,34 @@ div{
 	color: white;
 	font-weight: normal;
 	margin: 0;
+	margin-left: 1.5em;
 }
 
 .content li {
 	display: inline-block;
 	list-style-type: none;
+	letter-spacing: .3em;
+	margin-left: 3em;
 }
 
+.content li a{
+	font-size: 2em;
+	color: white;
+}
+
+/********************
+*New Pug Times styles
+********************/
+.container{
+	margin: 0 auto;
+	max-width: 77em;
+}
+.header{
+	border: 1em solid rgb(102, 51, 128);
+	border-radius: 20px 20px 0 0;
+	text-align: center;
+	margin-top: 1em;
+}
 
 /*Media queries*/
 /****************
